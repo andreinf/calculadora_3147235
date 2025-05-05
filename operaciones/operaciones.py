@@ -12,7 +12,7 @@ def multiplicar (a, b):
 #valueError es un comando donde un texto se muestra como error
  # operaciones.py
 
-def division(a, b):
+def dividir(a, b):
     if b == 0:
         raise ValueError("No se puede dividir por cero")
     return a / b
